@@ -34,7 +34,7 @@
     </a>
   </p>
 
-| <img src="./images/teaser.png" alt="Teaser" width="100%"> |
+| <img src="images/teaser.png" alt="Teaser" width="100%"> |
 | :-: |
 
 In this work we present **LiDARCrafter**, a unified framework for 4D LiDAR generation and editing. We contributes:
