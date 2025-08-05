@@ -34,7 +34,7 @@
     </a>
   </p>
 
-  <img src="images/teaser.png" width="100%" align="center">
+  <img src="https://lidarcrafter.github.io/static/images/teaser.png" width="100%" align="center">
 
 
 <!-- | <img src="images/teaser.png" alt="Teaser" width="100%"> |
