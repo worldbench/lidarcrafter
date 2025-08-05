@@ -14,7 +14,7 @@
     <a href="https://yuyang-cloud.github.io/" target="_blank">Yu Yang</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://dylanorange.github.io/" target="_blank">Dongyue Lu</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="" target="_blank">Linfeng Li</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://ldkong.com/" target="_blank">Lingdong Kong</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://ldkong.com/" target="_blank">Lingdong Kong*</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="" target="_blank">Huaici Zhao</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.comp.nus.edu.sg/~ooiwt/" target="_blank">Wei Tsang Ooi</a>
   </p>
