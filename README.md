@@ -53,7 +53,7 @@ If you find this work helpful for your research, please kindly consider citing o
 @article{liang2025lidarcrafter,
     title   = {LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences},
     author  = {Ao Liang and Youquan Liu and Yu Yang and Dongyue Lu and Linfeng Li and Lingdong Kong and Huaici Zhao and Wei Tsang Ooi},
-    journal = {arXiv preprint arXiv:2508.},
+    journal = {arXiv preprint arXiv:2508.03692},
     year    = {2025},
 }
 ```
