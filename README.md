@@ -14,7 +14,7 @@
     <a href="https://yuyang-cloud.github.io/" target="_blank">Yu Yang</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://dylanorange.github.io/" target="_blank">Dongyue Lu</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="" target="_blank">Linfeng Li</a><br>
-    <a href="https://ldkong.com/" target="_blank">Lingdong Kong*</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://ldkong.com/" target="_blank">Lingdong Kong</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="" target="_blank">Huaici Zhao</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.comp.nus.edu.sg/~ooiwt/" target="_blank">Wei Tsang Ooi</a>
   </p>
@@ -46,26 +46,25 @@ In this work, we introduce **LiDARCrafter**, a unified framework for 4D LiDAR ge
 - We propose a **comprehensive evaluation suite** for LiDAR sequence generation, encompassing scene-level, object-level, and sequence-level metrics.
 - We demonstrate **best single-frame and sequence-level LiDAR point cloud generation performance** on nuScenes, with improved foreground quality over existing methods.
 
-<!-- ### :books: Citation
+:books: Citation
 If you find this work helpful for your research, please kindly consider citing our paper:
 
 ```bibtex
-@inproceedings{liang2025pi3det,
-    title     = {Perspective-Invariant 3D Object Detection},
-    author    = {Ao Liang and Lingdong Kong and Dongyue Lu and Youquan Liu and Jian Fang and Huaici Zhao and Wei Tsang Ooi},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
-    year      = {2025},
+@article{liang2025lidarcrafter,
+    title   = {LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences},
+    author  = {Ao Liang and Youquan Liu and Yu Yang and Dongyue Lu and Linfeng Li and Lingdong Kong and Huaici Zhao and Wei Tsang Ooi},
+    journal = {arXiv preprint arXiv:2508.},
+    year    = {2025},
 }
-``` -->
+
 
 
 ## Updates
-- **[08/2025]** - The manuscript **LiDARCrafter** is on Arxiv.
+- **[08/2025]** - The [technical report]() of **LiDARCrafter** is on arXiv.
+
+
 
 ## Outline
-
-- [Updates](#updates)
-- [Outline](#outline)
 - [:gear: Installation](#gear-installation)
 - [:hotsprings: Data Preparation](#hotsprings-data-preparation)
 - [:rocket: Getting Started](#rocket-getting-started)
