@@ -96,11 +96,11 @@ To learn more usage of this codebase, kindly refer to [GET_STARTED.md](docs/GET_
 | :-: |
 
 ### 4D Layout Generation
-<img src="images/gen-4d-layout.png" alt="Framework" width="100%"> |
+<img src="images/gen-4d-layout.png" alt="Example" width="100%"> |
 | :-: |
 
 ### Single-Frame Generation
-<img src="images/gen-single-framework.png" alt="Framework" width="100%"> |
+<img src="images/gen-single-frame.png" alt="Example" width="100%"> |
 | :-: |
 
 
