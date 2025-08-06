@@ -34,11 +34,10 @@
     </a>
   </p>
 
-  <img src="https://lidarcrafter.github.io/static/images/teaser.png" width="100%" align="center">
 
+<img src="images/teaser.png" alt="Teaser" width="100%"> |
+| :-: |
 
-<!-- | <img src="images/teaser.png" alt="Teaser" width="100%"> |
-| :-: | -->
 
 In this work, we introduce **LiDARCrafter**, a unified framework for 4D LiDAR generation and editing. We contribute:
 - The first 4D generative world model dedicated to LiDAR data, with superior **controllability and spatiotemporal consistency**.
@@ -68,6 +67,7 @@ If you find this work helpful for your research, please kindly consider citing o
 - [:gear: Installation](#gear-installation)
 - [:hotsprings: Data Preparation](#hotsprings-data-preparation)
 - [:rocket: Getting Started](#rocket-getting-started)
+- [:wrench: Generation Framework](#wrench-generation-framework)
 - [:snake: Model Zoo](#snake-model-zoo)
 - [:memo: TODO List](#memo-todo-list)
 - [License](#license)
@@ -87,6 +87,21 @@ Kindly refer to our **HuggingFace Dataset** :hugs: page from [here](https://hugg
 
 ## :rocket: Getting Started
 To learn more usage of this codebase, kindly refer to [GET_STARTED.md](docs/GET_STARTED.md).
+
+
+## :wrench: Generation Framework
+
+### Overall Framework
+<img src="images/framework.png" alt="Framework" width="100%"> |
+| :-: |
+
+### 4D Layout Generation
+<img src="images/gen-4d-layout.png" alt="Framework" width="100%"> |
+| :-: |
+
+### Single-Frame Generation
+<img src="images/gen-single-framework.png" alt="Framework" width="100%"> |
+| :-: |
 
 
 
