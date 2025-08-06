@@ -13,7 +13,7 @@
     <a href="" target="_blank">Youquan Liu</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://yuyang-cloud.github.io/" target="_blank">Yu Yang</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://dylanorange.github.io/" target="_blank">Dongyue Lu</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="" target="_blank">Linfeng Li</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="" target="_blank">Linfeng Li</a><br>
     <a href="https://ldkong.com/" target="_blank">Lingdong Kong*</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="" target="_blank">Huaici Zhao</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.comp.nus.edu.sg/~ooiwt/" target="_blank">Wei Tsang Ooi</a>
@@ -30,7 +30,7 @@
       <img src="https://img.shields.io/badge/Dataset-%F0%9F%94%97-green">
     </a>&nbsp;
     <a href="" target='_blank'>
-      <img src="https://visitor-badge.laobi.icu/badge?page_id=pi3det.Pi3EDT">
+      <img src="https://visitor-badge.laobi.icu/badge?page_id=lidarcrafter.toolkit">
     </a>
   </p>
 
@@ -40,7 +40,7 @@
 <!-- | <img src="images/teaser.png" alt="Teaser" width="100%"> |
 | :-: | -->
 
-In this work we present **LiDARCrafter**, a unified framework for 4D LiDAR generation and editing. We contributes:
+In this work, we introduce **LiDARCrafter**, a unified framework for 4D LiDAR generation and editing. We contribute:
 - The first 4D generative world model dedicated to LiDAR data, with superior **controllability and spatiotemporal consistency**.
 - We introduce a **tri-branch 4D layout conditioned pipeline** that turns language into an editable 4D layout and uses it to guide temporally stable LiDAR synthesis.
 - We propose a **comprehensive evaluation suite** for LiDAR sequence generation, encompassing scene-level, object-level, and sequence-level metrics.
