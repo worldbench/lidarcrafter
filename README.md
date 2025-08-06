@@ -60,7 +60,7 @@ If you find this work helpful for your research, please kindly consider citing o
 
 
 ## Updates
-- **[08/2025]** - The [technical report]() of **LiDARCrafter** is available on arXiv.
+- **[08/2025]** - The [technical report](https://arxiv.org/abs/2508.03692) of **LiDARCrafter** is available on arXiv.
 
 
 
