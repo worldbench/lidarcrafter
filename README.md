@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="images/pi3det.gif" width="12.5%" align="center">
+  <img src="images/crane.gif" width="12.5%" align="center">
 
   <h1 align="center">
     <strong>LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences</strong>
@@ -20,7 +20,7 @@
   </p>
 
   <p align="center">
-    <a href="" target='_blank'>
+    <a href="https://arxiv.org/abs/2508.03692" target='_blank'>
       <img src="https://img.shields.io/badge/Paper-%F0%9F%93%96-darkred">
     </a>&nbsp;
     <a href="https://lidarcrafter.github.io/" target='_blank'>
