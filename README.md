@@ -59,15 +59,24 @@ If you find this work helpful for your research, please kindly consider citing o
 
 
 ## Updates
+- **[10/2025]** - We will soon start organizing the code. All pretrained weights for evaluation can be found at [Hugging Face](https://huggingface.co/LiDARCrafter/LiDARCrafter/tree/main).
 - **[08/2025]** - The [technical report](https://arxiv.org/abs/2508.03692) of **LiDARCrafter** is available on arXiv.
-
-
-
 ## Outline
+- [Updates](#updates)
+- [Outline](#outline)
 - [:gear: Installation](#gear-installation)
 - [:hotsprings: Data Preparation](#hotsprings-data-preparation)
 - [:rocket: Getting Started](#rocket-getting-started)
+  - [Evaluation](#evaluation)
 - [:wrench: Generation Framework](#wrench-generation-framework)
+  - [Overall Framework](#overall-framework)
+  - [4D Layout Generation](#4d-layout-generation)
+  - [Single-Frame Generation](#single-frame-generation)
+- [:snake: Model Zoo](#snake-model-zoo)
+- [:memo: TODO List](#memo-todo-list)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+>>>>>>> 1037dc1 (edit commit)
 - [:snake: Model Zoo](#snake-model-zoo)
 - [:memo: TODO List](#memo-todo-list)
 - [License](#license)
@@ -76,18 +85,37 @@ If you find this work helpful for your research, please kindly consider citing o
 
 
 ## :gear: Installation
-For details related to installation and environment setups, kindly refer to [INSTALL.md](docs/INSTALL.md).
+Please configure your environment according to the version information in [environment.yml](environment.yml).
 
 
 
 ## :hotsprings: Data Preparation
-Kindly refer to our **HuggingFace Dataset** :hugs: page from [here](https://huggingface.co/datasets/Pi3DET/data) for more details.
+- Create dataset: same as DrivingDiffusion
+```
+ln -s ${ROOT_DATA_PATH} ./data/nuscenes
+```
+
+Run `bash scripts/create_data.sh` for generate:
+- info with track and state
+
+- Updated pkl with scene graph
+
+- CLIP feature of scene graph
 
 
 
 ## :rocket: Getting Started
-To learn more usage of this codebase, kindly refer to [GET_STARTED.md](docs/GET_STARTED.md).
 
+### Evaluation
+- Train classification model
+  - `python train/train_classification_pointmlp.py`
+- Train uncertainty model
+  - `python train/train_uncertainty_glenet.py`
+
+For each generated 1w model
+
+- Extract foreground samples
+  - `python evaluation/extract_foreground_samples.py --model ori`
 
 ## :wrench: Generation Framework
 
@@ -104,16 +132,16 @@ To learn more usage of this codebase, kindly refer to [GET_STARTED.md](docs/GET_
 | :-: |
 
 
-
 ## :snake: Model Zoo
 To be updated.
 
 
 ## :memo: TODO List
 - [x] Initial release. 🚀
-- [ ] Release the training code.
-- [ ] Release the inference code.
-- [ ] Release the evaluation code.
+- [x] Release the training code.
+- [x] Release the inference code.
+- [x] Release the evaluation code.
+- [ ] Refine the Readme.md
 
 
 ## License
