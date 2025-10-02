@@ -96,7 +96,27 @@ Run `bash scripts/create_data.sh` for generate:
 
 - CLIP feature of scene graph
 
-
+The file-tree of data is like:
+```Shell
+data
+├── clips
+│   └── nuscenes
+│       ├── obj_text_feat.pkl
+│       ├── train
+│       └── val
+├── infos
+│   ├── needed_5_framed_token.pkl
+│   ├── nuscenes_dbinfos_10sweeps_withvelo.pkl
+│   ├── nuscenes_infos_10sweeps_train.pkl
+│   ├── nuscenes_infos_10sweeps_val.pkl
+│   ├── nuscenes_infos_lidargen_train.pkl
+│   ├── nuscenes_infos_lidargen_val.pkl
+│   ├── nuscenes_infos_train.pkl
+│   ├── nuscenes_infos_val.pkl
+│   ├── nuscenes_object_classification_train.pkl
+│   └── nuscenes_object_classification_val.pkl
+└── nuscenes
+```
 
 ## :rocket: Getting Started
 
