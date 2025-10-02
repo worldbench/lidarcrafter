@@ -76,12 +76,6 @@ If you find this work helpful for your research, please kindly consider citing o
 - [:memo: TODO List](#memo-todo-list)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
->>>>>>> 1037dc1 (edit commit)
-- [:snake: Model Zoo](#snake-model-zoo)
-- [:memo: TODO List](#memo-todo-list)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
 
 
 ## :gear: Installation
